@@ -47,7 +47,7 @@ public class ReadExcel {
 			// Get first/desired sheet from the workbook
 			XSSFSheet sheet = workbook.getSheetAt(Integer.parseInt(fileType));
 
-			// Iterate through each rows one by one
+			// Iterate through each rows one by onefgfg
 			Iterator<Row> rowIterator = sheet.iterator();
 			int rowCount = 1;
 
